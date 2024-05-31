@@ -1,0 +1,212 @@
+88/88 [==============================] - 0s 4ms/step
+For each class:
+Accuracy:  tensor([0.4170, 0.5142, 0.5161, 0.4136, 0.6540, 0.3185, 0.6542, 0.4111, 0.3885,
+        0.6141, 0.6034, 0.5882, 0.6011, 0.6418, 0.3709, 0.0000, 0.0000, 0.0000,
+        0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000,
+        0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000,
+        0.0000, 0.0000, 0.0000, 0.0000])
+Precision:  tensor([0.4577, 0.3818, 0.5557, 0.4613, 0.6698, 0.2942, 0.7061, 0.4084, 0.4642,
+        0.5636, 0.5553, 0.6144, 0.6958, 0.5554, 0.3927, 0.0000, 0.0000, 0.0000,
+        0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000,
+        0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000,
+        0.0000, 0.0000, 0.0000, 0.0000])
+Recall:  tensor([0.4170, 0.5142, 0.5161, 0.4136, 0.6540, 0.3185, 0.6542, 0.4111, 0.3885,
+        0.6141, 0.6034, 0.5882, 0.6011, 0.6418, 0.3709, 0.0000, 0.0000, 0.0000,
+        0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000,
+        0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000,
+        0.0000, 0.0000, 0.0000, 0.0000])
+F1-score:  tensor([0.4364, 0.4382, 0.5352, 0.4362, 0.6618, 0.3059, 0.6791, 0.4098, 0.4230,
+        0.5878, 0.5783, 0.6010, 0.6450, 0.5955, 0.3815, 0.0000, 0.0000, 0.0000,
+        0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000,
+        0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000,
+        0.0000, 0.0000, 0.0000, 0.0000])
+Type:  micro
+Accuracy:  tensor(0.5127)
+Precision:  tensor(0.5127)
+Recall:  tensor(0.5127)
+F1-score:  tensor(0.5127)
+Type:  macro
+Accuracy:  tensor(0.1927)
+Precision:  tensor(0.1944)
+Recall:  tensor(0.1927)
+F1-score:  tensor(0.1929)
+Type:  weighted
+Accuracy:  tensor(0.5127)
+Precision:  tensor(0.5176)
+Recall:  tensor(0.5127)
+F1-score:  tensor(0.5134)
+[nltk_data] Downloading package stopwords to
+[nltk_data]     C:\Users\DELL\AppData\Roaming\nltk_data...
+[nltk_data]   Package stopwords is already up-to-date!
+Defaulting to user installation because normal site-packages is not writeable
+Requirement already satisfied: wandb in c:\users\dell\appdata\roaming\python\python310\site-packages (0.13.5)
+Requirement already satisfied: PyYAML in c:\users\dell\appdata\roaming\python\python310\site-packages (from wandb) (6.0)
+Requirement already satisfied: Click!=8.0.0,>=7.0 in c:\users\dell\appdata\roaming\python\python310\site-packages (from wandb) (8.1.3)
+Requirement already satisfied: sentry-sdk>=1.0.0 in c:\users\dell\appdata\roaming\python\python310\site-packages (from wandb) (1.11.1)
+Requirement already satisfied: setproctitle in c:\users\dell\appdata\roaming\python\python310\site-packages (from wandb) (1.3.2)
+Requirement already satisfied: six>=1.13.0 in c:\users\dell\appdata\roaming\python\python310\site-packages (from wandb) (1.16.0)
+Requirement already satisfied: setuptools in c:\users\dell\appdata\roaming\python\python310\site-packages (from wandb) (65.5.0)
+Requirement already satisfied: GitPython>=1.0.0 in c:\users\dell\appdata\roaming\python\python310\site-packages (from wandb) (3.1.29)
+Requirement already satisfied: shortuuid>=0.5.0 in c:\users\dell\appdata\roaming\python\python310\site-packages (from wandb) (1.0.11)
+Requirement already satisfied: requests<3,>=2.0.0 in c:\users\dell\appdata\roaming\python\python310\site-packages (from wandb) (2.28.1)
+Requirement already satisfied: protobuf!=4.0.*,!=4.21.0,<5,>=3.12.0 in c:\users\dell\appdata\roaming\python\python310\site-packages (from wandb) (3.19.6)
+Requirement already satisfied: psutil>=5.0.0 in c:\users\dell\appdata\roaming\python\python310\site-packages (from wandb) (5.9.1)
+Requirement already satisfied: docker-pycreds>=0.4.0 in c:\users\dell\appdata\roaming\python\python310\site-packages (from wandb) (0.4.0)
+Requirement already satisfied: promise<3,>=2.0 in c:\users\dell\appdata\roaming\python\python310\site-packages (from wandb) (2.3)
+Requirement already satisfied: pathtools in c:\users\dell\appdata\roaming\python\python310\site-packages (from wandb) (0.1.2)
+Requirement already satisfied: colorama in c:\users\dell\appdata\roaming\python\python310\site-packages (from Click!=8.0.0,>=7.0->wandb) (0.4.5)
+Requirement already satisfied: gitdb<5,>=4.0.1 in c:\users\dell\appdata\roaming\python\python310\site-packages (from GitPython>=1.0.0->wandb) (4.0.10)
+Requirement already satisfied: certifi>=2017.4.17 in c:\users\dell\appdata\roaming\python\python310\site-packages (from requests<3,>=2.0.0->wandb) (2022.9.24)
+Requirement already satisfied: urllib3<1.27,>=1.21.1 in c:\users\dell\appdata\roaming\python\python310\site-packages (from requests<3,>=2.0.0->wandb) (1.26.12)
+Requirement already satisfied: idna<4,>=2.5 in c:\users\dell\appdata\roaming\python\python310\site-packages (from requests<3,>=2.0.0->wandb) (3.4)
+Requirement already satisfied: charset-normalizer<3,>=2 in c:\users\dell\appdata\roaming\python\python310\site-packages (from requests<3,>=2.0.0->wandb) (2.1.1)
+Requirement already satisfied: smmap<6,>=3.0.1 in c:\users\dell\appdata\roaming\python\python310\site-packages (from gitdb<5,>=4.0.1->GitPython>=1.0.0->wandb) (5.0.0)
+[notice] A new release of pip available: 22.3.1 -> 23.1.2
+[notice] To update, run: python.exe -m pip install --upgrade pip
+Defaulting to user installation because normal site-packages is not writeable
+Requirement already satisfied: torchmetrics in c:\users\dell\appdata\roaming\python\python310\site-packages (0.10.3)
+Requirement already satisfied: numpy>=1.17.2 in c:\users\dell\appdata\roaming\python\python310\site-packages (from torchmetrics) (1.23.4)
+Requirement already satisfied: packaging in c:\users\dell\appdata\roaming\python\python310\site-packages (from torchmetrics) (21.3)
+Requirement already satisfied: torch>=1.3.1 in c:\users\dell\appdata\roaming\python\python310\site-packages (from torchmetrics) (1.12.1)
+Requirement already satisfied: typing-extensions in c:\users\dell\appdata\roaming\python\python310\site-packages (from torch>=1.3.1->torchmetrics) (4.4.0)
+Requirement already satisfied: pyparsing!=3.0.5,>=2.0.2 in c:\users\dell\appdata\roaming\python\python310\site-packages (from packaging->torchmetrics) (3.0.9)
+[notice] A new release of pip available: 22.3.1 -> 23.1.2
+[notice] To update, run: python.exe -m pip install --upgrade pip
+[34m[1mwandb[39m[22m: [33mWARNING[39m Calling wandb.login() after wandb.init() has no effect.
+Found 115317 unique tokens.
+Epoch 1/15
+
+
+
+
+967/967 [==============================] - 12s 11ms/step - loss: 2.8814 - categorical_accuracy: 0.3093 - val_loss: 2.5473 - val_categorical_accuracy: 0.3588
+Epoch 2/15
+
+
+
+
+
+967/967 [==============================] - 11s 11ms/step - loss: 2.4359 - categorical_accuracy: 0.3838 - val_loss: 2.3930 - val_categorical_accuracy: 0.4044
+Epoch 3/15
+
+
+
+
+
+
+
+
+
+
+967/967 [==============================] - 23s 24ms/step - loss: 2.2555 - categorical_accuracy: 0.4369 - val_loss: 2.2837 - val_categorical_accuracy: 0.4372
+Epoch 4/15
+
+
+
+
+
+
+
+
+
+967/967 [==============================] - 20s 21ms/step - loss: 2.1334 - categorical_accuracy: 0.4666 - val_loss: 2.2513 - val_categorical_accuracy: 0.4510
+Epoch 5/15
+
+
+
+
+
+
+
+
+
+
+
+967/967 [==============================] - 25s 26ms/step - loss: 2.0353 - categorical_accuracy: 0.4913 - val_loss: 2.2567 - val_categorical_accuracy: 0.4534
+Epoch 6/15
+
+
+
+
+
+
+
+
+
+
+
+
+967/967 [==============================] - 27s 28ms/step - loss: 1.9276 - categorical_accuracy: 0.5193 - val_loss: 2.3020 - val_categorical_accuracy: 0.4551
+Epoch 7/15
+
+
+
+
+
+967/967 [==============================] - 12s 12ms/step - loss: 1.8049 - categorical_accuracy: 0.5504 - val_loss: 2.4147 - val_categorical_accuracy: 0.4481
+Epoch 8/15
+
+
+
+
+967/967 [==============================] - 11s 12ms/step - loss: 1.6775 - categorical_accuracy: 0.5853 - val_loss: 2.5722 - val_categorical_accuracy: 0.4360
+Epoch 9/15
+
+
+
+
+
+967/967 [==============================] - 11s 11ms/step - loss: 1.5509 - categorical_accuracy: 0.6237 - val_loss: 2.7606 - val_categorical_accuracy: 0.4209
+Epoch 10/15
+
+
+
+
+967/967 [==============================] - 11s 12ms/step - loss: 1.4300 - categorical_accuracy: 0.6616 - val_loss: 2.9964 - val_categorical_accuracy: 0.4075
+Epoch 11/15
+
+
+
+
+
+
+967/967 [==============================] - 13s 13ms/step - loss: 1.3183 - categorical_accuracy: 0.7004 - val_loss: 3.2317 - val_categorical_accuracy: 0.3983
+Epoch 12/15
+
+
+
+
+
+967/967 [==============================] - 12s 12ms/step - loss: 1.2152 - categorical_accuracy: 0.7363 - val_loss: 3.5232 - val_categorical_accuracy: 0.3869
+Epoch 13/15
+
+
+
+
+
+
+
+
+967/967 [==============================] - 19s 19ms/step - loss: 1.1242 - categorical_accuracy: 0.7674 - val_loss: 3.8019 - val_categorical_accuracy: 0.3813
+Epoch 14/15
+
+
+
+
+
+
+
+
+
+
+
+
+
+967/967 [==============================] - 28s 29ms/step - loss: 1.0382 - categorical_accuracy: 0.7973 - val_loss: 4.1037 - val_categorical_accuracy: 0.3744
+Epoch 15/15
+
+
+
+
+
+

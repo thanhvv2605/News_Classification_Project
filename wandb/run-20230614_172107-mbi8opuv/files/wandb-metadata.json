@@ -1,0 +1,41 @@
+{
+    "os": "Windows-10-10.0.22621-SP0",
+    "python": "3.10.5",
+    "heartbeatAt": "2023-06-14T10:21:17.006152",
+    "startedAt": "2023-06-14T10:21:07.947332",
+    "docker": null,
+    "cuda": null,
+    "args": null,
+    "state": "running",
+    "program": "<python with no main file>",
+    "git": {
+        "remote": "https://github.com/ngmtea/20222_DMML_Project.git",
+        "commit": "2988e822a992dbeac54588aa7422e7d809189e30"
+    },
+    "email": "Thckpck11@gmail.com",
+    "root": "D:/Study/20222/ML &DM/Project/20222_DMML_Project",
+    "host": "DESKTOP-2PL6IMR",
+    "username": "DELL",
+    "executable": "c:\\Program Files\\Python310\\python.exe",
+    "cpu_count": 4,
+    "cpu_count_logical": 8,
+    "cpu_freq": {
+        "current": 2611.0,
+        "min": 0.0,
+        "max": 2611.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 2611.0,
+            "min": 0.0,
+            "max": 2611.0
+        }
+    ],
+    "disk": {
+        "total": 326.54882431030273,
+        "used": 50.84298324584961
+    },
+    "memory": {
+        "total": 15.74881362915039
+    }
+}

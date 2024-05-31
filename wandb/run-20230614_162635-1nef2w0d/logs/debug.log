@@ -1,0 +1,244 @@
+2023-06-14 16:26:35,188 INFO    MainThread:5268 [wandb_setup.py:_flush():68] Configure stats pid to 5268
+2023-06-14 16:26:35,189 INFO    MainThread:5268 [wandb_setup.py:_flush():68] Loading settings from C:\Users\DELL\.config\wandb\settings
+2023-06-14 16:26:35,189 INFO    MainThread:5268 [wandb_setup.py:_flush():68] Loading settings from d:\Study\20222\ML &DM\Project\20222_DMML_Project\wandb\settings
+2023-06-14 16:26:35,189 INFO    MainThread:5268 [wandb_setup.py:_flush():68] Loading settings from environment variables: {'_require_service': 'True'}
+2023-06-14 16:26:35,190 INFO    MainThread:5268 [wandb_setup.py:_flush():68] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2023-06-14 16:26:35,190 INFO    MainThread:5268 [wandb_setup.py:_flush():68] Applying login settings: {'api_key': '***REDACTED***'}
+2023-06-14 16:26:35,192 INFO    MainThread:5268 [wandb_init.py:_log_setup():476] Logging user logs to d:\Study\20222\ML &DM\Project\20222_DMML_Project\wandb\run-20230614_162635-1nef2w0d\logs\debug.log
+2023-06-14 16:26:35,192 INFO    MainThread:5268 [wandb_init.py:_log_setup():477] Logging internal logs to d:\Study\20222\ML &DM\Project\20222_DMML_Project\wandb\run-20230614_162635-1nef2w0d\logs\debug-internal.log
+2023-06-14 16:26:35,192 INFO    MainThread:5268 [wandb_init.py:_jupyter_setup():426] configuring jupyter hooks <wandb.sdk.wandb_init._WandbInit object at 0x000002BF03A22650>
+2023-06-14 16:26:35,192 INFO    MainThread:5268 [wandb_init.py:init():516] calling init triggers
+2023-06-14 16:26:35,192 INFO    MainThread:5268 [wandb_init.py:init():519] wandb.init called with sweep_config: {}
+config: {}
+2023-06-14 16:26:35,194 INFO    MainThread:5268 [wandb_init.py:init():535] re-initializing run, found existing run on stack: 3ca9i67l
+2023-06-14 16:26:35,198 INFO    MainThread:5268 [wandb_run.py:_finish():1746] finishing run thanh-bv/News Classification/3ca9i67l
+2023-06-14 16:26:35,198 INFO    MainThread:5268 [wandb_run.py:_atexit_cleanup():1949] got exitcode: 0
+2023-06-14 16:26:35,199 INFO    MainThread:5268 [wandb_run.py:_restore():1932] restore
+2023-06-14 16:26:35,199 INFO    MainThread:5268 [wandb_run.py:_restore():1938] restore done
+2023-06-14 16:26:43,080 INFO    MainThread:5268 [wandb_run.py:_footer_history_summary_info():3377] rendering history
+2023-06-14 16:26:43,081 INFO    MainThread:5268 [wandb_run.py:_footer_history_summary_info():3409] rendering summary
+2023-06-14 16:26:43,092 INFO    MainThread:5268 [wandb_run.py:_footer_sync_info():3333] logging synced files
+2023-06-14 16:26:43,099 INFO    MainThread:5268 [wandb_init.py:init():569] starting backend
+2023-06-14 16:26:43,100 INFO    MainThread:5268 [wandb_init.py:init():573] setting up manager
+2023-06-14 16:26:43,103 INFO    MainThread:5268 [backend.py:_multiprocessing_setup():102] multiprocessing start_methods=spawn, using: spawn
+2023-06-14 16:26:43,106 INFO    MainThread:5268 [wandb_init.py:init():580] backend started and connected
+2023-06-14 16:26:43,108 INFO    MainThread:5268 [wandb_run.py:_label_probe_notebook():1113] probe notebook
+2023-06-14 16:26:43,108 INFO    MainThread:5268 [wandb_run.py:_label_probe_notebook():1123] Unable to probe notebook: 'NoneType' object has no attribute 'get'
+2023-06-14 16:26:43,108 INFO    MainThread:5268 [wandb_init.py:init():658] updated telemetry
+2023-06-14 16:26:43,176 INFO    MainThread:5268 [wandb_init.py:init():693] communicating run to backend with 60 second timeout
+2023-06-14 16:26:45,249 INFO    MainThread:5268 [wandb_run.py:_on_init():2000] communicating current version
+2023-06-14 16:26:45,639 INFO    MainThread:5268 [wandb_run.py:_on_init():2004] got version response upgrade_message: "wandb version 0.15.4 is available!  To upgrade, please run:\n $ pip install wandb --upgrade"
+
+2023-06-14 16:26:45,639 INFO    MainThread:5268 [wandb_init.py:init():728] starting run threads in backend
+2023-06-14 16:26:45,888 INFO    MainThread:5268 [wandb_run.py:_console_start():1980] atexit reg
+2023-06-14 16:26:45,888 INFO    MainThread:5268 [wandb_run.py:_redirect():1838] redirect: SettingsConsole.WRAP_RAW
+2023-06-14 16:26:45,889 INFO    MainThread:5268 [wandb_run.py:_redirect():1903] Wrapping output streams.
+2023-06-14 16:26:45,889 INFO    MainThread:5268 [wandb_run.py:_redirect():1925] Redirects installed.
+2023-06-14 16:26:45,889 INFO    MainThread:5268 [wandb_init.py:init():765] run started, returning control to user process
+2023-06-14 16:26:46,484 INFO    MainThread:5268 [wandb_init.py:_pause_backend():389] pausing backend
+2023-06-14 16:26:46,484 INFO    MainThread:5268 [jupyter.py:save_ipynb():378] not saving jupyter notebook
+2023-06-14 16:29:56,351 INFO    MainThread:5268 [wandb_init.py:_resume_backend():398] resuming backend
+2023-06-14 16:29:56,982 INFO    MainThread:5268 [wandb_init.py:_pause_backend():389] pausing backend
+2023-06-14 16:29:56,982 INFO    MainThread:5268 [jupyter.py:save_ipynb():378] not saving jupyter notebook
+2023-06-14 16:29:57,000 INFO    MainThread:5268 [wandb_init.py:_resume_backend():398] resuming backend
+2023-06-14 16:30:03,717 INFO    MainThread:5268 [wandb_init.py:_pause_backend():389] pausing backend
+2023-06-14 16:30:03,717 INFO    MainThread:5268 [jupyter.py:save_ipynb():378] not saving jupyter notebook
+2023-06-14 16:30:03,747 INFO    MainThread:5268 [wandb_init.py:_resume_backend():398] resuming backend
+2023-06-14 16:30:03,787 INFO    MainThread:5268 [wandb_init.py:_pause_backend():389] pausing backend
+2023-06-14 16:30:03,787 INFO    MainThread:5268 [jupyter.py:save_ipynb():378] not saving jupyter notebook
+2023-06-14 16:30:03,808 INFO    MainThread:5268 [wandb_init.py:_resume_backend():398] resuming backend
+2023-06-14 16:30:03,815 INFO    MainThread:5268 [wandb_init.py:_pause_backend():389] pausing backend
+2023-06-14 16:30:03,815 INFO    MainThread:5268 [jupyter.py:save_ipynb():378] not saving jupyter notebook
+2023-06-14 16:30:03,833 INFO    MainThread:5268 [wandb_init.py:_resume_backend():398] resuming backend
+2023-06-14 16:30:05,627 INFO    MainThread:5268 [wandb_init.py:_pause_backend():389] pausing backend
+2023-06-14 16:30:05,628 INFO    MainThread:5268 [jupyter.py:save_ipynb():378] not saving jupyter notebook
+2023-06-14 16:30:05,647 INFO    MainThread:5268 [wandb_init.py:_resume_backend():398] resuming backend
+2023-06-14 16:30:05,806 INFO    MainThread:5268 [wandb_init.py:_pause_backend():389] pausing backend
+2023-06-14 16:30:05,806 INFO    MainThread:5268 [jupyter.py:save_ipynb():378] not saving jupyter notebook
+2023-06-14 16:30:05,837 INFO    MainThread:5268 [wandb_init.py:_resume_backend():398] resuming backend
+2023-06-14 16:30:05,851 INFO    MainThread:5268 [wandb_init.py:_pause_backend():389] pausing backend
+2023-06-14 16:30:05,852 INFO    MainThread:5268 [jupyter.py:save_ipynb():378] not saving jupyter notebook
+2023-06-14 16:30:05,869 INFO    MainThread:5268 [wandb_init.py:_resume_backend():398] resuming backend
+2023-06-14 16:30:05,908 INFO    MainThread:5268 [wandb_init.py:_pause_backend():389] pausing backend
+2023-06-14 16:30:05,908 INFO    MainThread:5268 [jupyter.py:save_ipynb():378] not saving jupyter notebook
+2023-06-14 16:30:05,928 INFO    MainThread:5268 [wandb_init.py:_resume_backend():398] resuming backend
+2023-06-14 16:30:05,960 INFO    MainThread:5268 [wandb_init.py:_pause_backend():389] pausing backend
+2023-06-14 16:30:05,960 INFO    MainThread:5268 [jupyter.py:save_ipynb():378] not saving jupyter notebook
+2023-06-14 16:30:05,975 INFO    MainThread:5268 [wandb_init.py:_resume_backend():398] resuming backend
+2023-06-14 16:30:07,818 INFO    MainThread:5268 [wandb_init.py:_pause_backend():389] pausing backend
+2023-06-14 16:30:07,818 INFO    MainThread:5268 [jupyter.py:save_ipynb():378] not saving jupyter notebook
+2023-06-14 16:30:07,849 INFO    MainThread:5268 [wandb_init.py:_resume_backend():398] resuming backend
+2023-06-14 16:30:07,856 INFO    MainThread:5268 [wandb_init.py:_pause_backend():389] pausing backend
+2023-06-14 16:30:07,857 INFO    MainThread:5268 [jupyter.py:save_ipynb():378] not saving jupyter notebook
+2023-06-14 16:30:07,876 INFO    MainThread:5268 [wandb_init.py:_resume_backend():398] resuming backend
+2023-06-14 16:30:07,880 INFO    MainThread:5268 [wandb_init.py:_pause_backend():389] pausing backend
+2023-06-14 16:30:07,881 INFO    MainThread:5268 [jupyter.py:save_ipynb():378] not saving jupyter notebook
+2023-06-14 16:30:07,904 INFO    MainThread:5268 [wandb_init.py:_resume_backend():398] resuming backend
+2023-06-14 16:30:10,191 INFO    MainThread:5268 [wandb_init.py:_pause_backend():389] pausing backend
+2023-06-14 16:30:10,193 INFO    MainThread:5268 [jupyter.py:save_ipynb():378] not saving jupyter notebook
+2023-06-14 16:30:10,214 INFO    MainThread:5268 [wandb_init.py:_resume_backend():398] resuming backend
+2023-06-14 16:30:18,915 INFO    MainThread:5268 [wandb_init.py:_pause_backend():389] pausing backend
+2023-06-14 16:30:18,916 INFO    MainThread:5268 [jupyter.py:save_ipynb():378] not saving jupyter notebook
+2023-06-14 16:30:18,937 INFO    MainThread:5268 [wandb_init.py:_resume_backend():398] resuming backend
+2023-06-14 16:30:18,943 INFO    MainThread:5268 [wandb_init.py:_pause_backend():389] pausing backend
+2023-06-14 16:30:18,943 INFO    MainThread:5268 [jupyter.py:save_ipynb():378] not saving jupyter notebook
+2023-06-14 16:30:18,953 INFO    MainThread:5268 [wandb_init.py:_resume_backend():398] resuming backend
+2023-06-14 16:30:19,013 INFO    MainThread:5268 [wandb_init.py:_pause_backend():389] pausing backend
+2023-06-14 16:30:19,013 INFO    MainThread:5268 [jupyter.py:save_ipynb():378] not saving jupyter notebook
+2023-06-14 16:30:19,034 INFO    MainThread:5268 [wandb_init.py:_resume_backend():398] resuming backend
+2023-06-14 16:30:19,178 INFO    MainThread:5268 [wandb_init.py:_pause_backend():389] pausing backend
+2023-06-14 16:30:19,179 INFO    MainThread:5268 [jupyter.py:save_ipynb():378] not saving jupyter notebook
+2023-06-14 16:30:19,200 INFO    MainThread:5268 [wandb_init.py:_resume_backend():398] resuming backend
+2023-06-14 16:30:19,267 INFO    MainThread:5268 [wandb_init.py:_pause_backend():389] pausing backend
+2023-06-14 16:30:19,267 INFO    MainThread:5268 [jupyter.py:save_ipynb():378] not saving jupyter notebook
+2023-06-14 16:30:19,278 INFO    MainThread:5268 [wandb_init.py:_resume_backend():398] resuming backend
+2023-06-14 16:30:19,289 INFO    MainThread:5268 [wandb_init.py:_pause_backend():389] pausing backend
+2023-06-14 16:30:19,290 INFO    MainThread:5268 [jupyter.py:save_ipynb():378] not saving jupyter notebook
+2023-06-14 16:30:19,309 INFO    MainThread:5268 [wandb_init.py:_resume_backend():398] resuming backend
+2023-06-14 16:30:19,899 INFO    MainThread:5268 [wandb_init.py:_pause_backend():389] pausing backend
+2023-06-14 16:30:19,899 INFO    MainThread:5268 [jupyter.py:save_ipynb():378] not saving jupyter notebook
+2023-06-14 16:30:19,919 INFO    MainThread:5268 [wandb_init.py:_resume_backend():398] resuming backend
+2023-06-14 16:30:19,924 INFO    MainThread:5268 [wandb_init.py:_pause_backend():389] pausing backend
+2023-06-14 16:30:19,924 INFO    MainThread:5268 [jupyter.py:save_ipynb():378] not saving jupyter notebook
+2023-06-14 16:30:19,936 INFO    MainThread:5268 [wandb_init.py:_resume_backend():398] resuming backend
+2023-06-14 16:30:20,051 INFO    MainThread:5268 [wandb_init.py:_pause_backend():389] pausing backend
+2023-06-14 16:30:20,051 INFO    MainThread:5268 [jupyter.py:save_ipynb():378] not saving jupyter notebook
+2023-06-14 16:30:20,059 INFO    MainThread:5268 [wandb_init.py:_resume_backend():398] resuming backend
+2023-06-14 16:30:20,068 INFO    MainThread:5268 [wandb_init.py:_pause_backend():389] pausing backend
+2023-06-14 16:30:20,069 INFO    MainThread:5268 [jupyter.py:save_ipynb():378] not saving jupyter notebook
+2023-06-14 16:30:20,076 INFO    MainThread:5268 [wandb_init.py:_resume_backend():398] resuming backend
+2023-06-14 16:30:20,129 INFO    MainThread:5268 [wandb_init.py:_pause_backend():389] pausing backend
+2023-06-14 16:30:20,129 INFO    MainThread:5268 [jupyter.py:save_ipynb():378] not saving jupyter notebook
+2023-06-14 16:30:20,138 INFO    MainThread:5268 [wandb_init.py:_resume_backend():398] resuming backend
+2023-06-14 16:30:20,141 INFO    MainThread:5268 [wandb_init.py:_pause_backend():389] pausing backend
+2023-06-14 16:30:20,141 INFO    MainThread:5268 [jupyter.py:save_ipynb():378] not saving jupyter notebook
+2023-06-14 16:30:20,153 INFO    MainThread:5268 [wandb_init.py:_resume_backend():398] resuming backend
+2023-06-14 16:30:20,220 INFO    MainThread:5268 [wandb_init.py:_pause_backend():389] pausing backend
+2023-06-14 16:30:20,220 INFO    MainThread:5268 [jupyter.py:save_ipynb():378] not saving jupyter notebook
+2023-06-14 16:30:20,230 INFO    MainThread:5268 [wandb_init.py:_resume_backend():398] resuming backend
+2023-06-14 16:30:20,232 INFO    MainThread:5268 [wandb_init.py:_pause_backend():389] pausing backend
+2023-06-14 16:30:20,232 INFO    MainThread:5268 [jupyter.py:save_ipynb():378] not saving jupyter notebook
+2023-06-14 16:30:20,247 INFO    MainThread:5268 [wandb_init.py:_resume_backend():398] resuming backend
+2023-06-14 16:30:20,248 INFO    MainThread:5268 [wandb_init.py:_pause_backend():389] pausing backend
+2023-06-14 16:30:20,249 INFO    MainThread:5268 [jupyter.py:save_ipynb():378] not saving jupyter notebook
+2023-06-14 16:30:20,260 INFO    MainThread:5268 [wandb_init.py:_resume_backend():398] resuming backend
+2023-06-14 16:30:20,266 INFO    MainThread:5268 [wandb_init.py:_pause_backend():389] pausing backend
+2023-06-14 16:30:20,266 INFO    MainThread:5268 [jupyter.py:save_ipynb():378] not saving jupyter notebook
+2023-06-14 16:30:20,281 INFO    MainThread:5268 [wandb_init.py:_resume_backend():398] resuming backend
+2023-06-14 16:30:20,284 INFO    MainThread:5268 [wandb_init.py:_pause_backend():389] pausing backend
+2023-06-14 16:30:20,284 INFO    MainThread:5268 [jupyter.py:save_ipynb():378] not saving jupyter notebook
+2023-06-14 16:30:20,295 INFO    MainThread:5268 [wandb_init.py:_resume_backend():398] resuming backend
+2023-06-14 16:30:20,297 INFO    MainThread:5268 [wandb_init.py:_pause_backend():389] pausing backend
+2023-06-14 16:30:20,297 INFO    MainThread:5268 [jupyter.py:save_ipynb():378] not saving jupyter notebook
+2023-06-14 16:30:20,312 INFO    MainThread:5268 [wandb_init.py:_resume_backend():398] resuming backend
+2023-06-14 16:30:20,315 INFO    MainThread:5268 [wandb_init.py:_pause_backend():389] pausing backend
+2023-06-14 16:30:20,315 INFO    MainThread:5268 [jupyter.py:save_ipynb():378] not saving jupyter notebook
+2023-06-14 16:30:20,326 INFO    MainThread:5268 [wandb_init.py:_resume_backend():398] resuming backend
+2023-06-14 16:30:20,327 INFO    MainThread:5268 [wandb_init.py:_pause_backend():389] pausing backend
+2023-06-14 16:30:20,328 INFO    MainThread:5268 [jupyter.py:save_ipynb():378] not saving jupyter notebook
+2023-06-14 16:30:20,344 INFO    MainThread:5268 [wandb_init.py:_resume_backend():398] resuming backend
+2023-06-14 16:30:20,345 INFO    MainThread:5268 [wandb_init.py:_pause_backend():389] pausing backend
+2023-06-14 16:30:20,346 INFO    MainThread:5268 [jupyter.py:save_ipynb():378] not saving jupyter notebook
+2023-06-14 16:30:20,358 INFO    MainThread:5268 [wandb_init.py:_resume_backend():398] resuming backend
+2023-06-14 16:30:20,360 INFO    MainThread:5268 [wandb_init.py:_pause_backend():389] pausing backend
+2023-06-14 16:30:20,360 INFO    MainThread:5268 [jupyter.py:save_ipynb():378] not saving jupyter notebook
+2023-06-14 16:30:20,375 INFO    MainThread:5268 [wandb_init.py:_resume_backend():398] resuming backend
+2023-06-14 16:30:20,376 INFO    MainThread:5268 [wandb_init.py:_pause_backend():389] pausing backend
+2023-06-14 16:30:20,376 INFO    MainThread:5268 [jupyter.py:save_ipynb():378] not saving jupyter notebook
+2023-06-14 16:30:20,387 INFO    MainThread:5268 [wandb_init.py:_resume_backend():398] resuming backend
+2023-06-14 16:30:20,388 INFO    MainThread:5268 [wandb_init.py:_pause_backend():389] pausing backend
+2023-06-14 16:30:20,389 INFO    MainThread:5268 [jupyter.py:save_ipynb():378] not saving jupyter notebook
+2023-06-14 16:30:20,403 INFO    MainThread:5268 [wandb_init.py:_resume_backend():398] resuming backend
+2023-06-14 16:30:20,406 INFO    MainThread:5268 [wandb_init.py:_pause_backend():389] pausing backend
+2023-06-14 16:30:20,406 INFO    MainThread:5268 [jupyter.py:save_ipynb():378] not saving jupyter notebook
+2023-06-14 16:30:20,420 INFO    MainThread:5268 [wandb_init.py:_resume_backend():398] resuming backend
+2023-06-14 16:30:20,421 INFO    MainThread:5268 [wandb_init.py:_pause_backend():389] pausing backend
+2023-06-14 16:30:20,421 INFO    MainThread:5268 [jupyter.py:save_ipynb():378] not saving jupyter notebook
+2023-06-14 16:30:20,435 INFO    MainThread:5268 [wandb_init.py:_resume_backend():398] resuming backend
+2023-06-14 16:30:20,437 INFO    MainThread:5268 [wandb_init.py:_pause_backend():389] pausing backend
+2023-06-14 16:30:20,438 INFO    MainThread:5268 [jupyter.py:save_ipynb():378] not saving jupyter notebook
+2023-06-14 16:30:20,450 INFO    MainThread:5268 [wandb_init.py:_resume_backend():398] resuming backend
+2023-06-14 16:30:20,452 INFO    MainThread:5268 [wandb_init.py:_pause_backend():389] pausing backend
+2023-06-14 16:30:20,453 INFO    MainThread:5268 [jupyter.py:save_ipynb():378] not saving jupyter notebook
+2023-06-14 16:30:20,468 INFO    MainThread:5268 [wandb_init.py:_resume_backend():398] resuming backend
+2023-06-14 16:30:20,470 INFO    MainThread:5268 [wandb_init.py:_pause_backend():389] pausing backend
+2023-06-14 16:30:20,470 INFO    MainThread:5268 [jupyter.py:save_ipynb():378] not saving jupyter notebook
+2023-06-14 16:30:20,487 INFO    MainThread:5268 [wandb_init.py:_resume_backend():398] resuming backend
+2023-06-14 16:34:26,344 INFO    MainThread:5268 [wandb_setup.py:_flush():68] Configure stats pid to 5268
+2023-06-14 16:34:26,345 INFO    MainThread:5268 [wandb_setup.py:_flush():68] Loading settings from C:\Users\DELL\.config\wandb\settings
+2023-06-14 16:34:26,345 INFO    MainThread:5268 [wandb_setup.py:_flush():68] Loading settings from d:\Study\20222\ML &DM\Project\20222_DMML_Project\wandb\settings
+2023-06-14 16:34:26,345 INFO    MainThread:5268 [wandb_setup.py:_flush():68] Loading settings from environment variables: {'_require_service': 'True'}
+2023-06-14 16:34:26,346 INFO    MainThread:5268 [wandb_setup.py:_flush():68] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2023-06-14 16:34:26,346 INFO    MainThread:5268 [wandb_setup.py:_flush():68] Applying login settings: {'api_key': '***REDACTED***'}
+2023-06-14 16:34:26,347 INFO    MainThread:5268 [wandb_init.py:_log_setup():476] Logging user logs to d:\Study\20222\ML &DM\Project\20222_DMML_Project\wandb\run-20230614_163426-2oexogxa\logs\debug.log
+2023-06-14 16:34:26,347 INFO    MainThread:5268 [wandb_init.py:_log_setup():477] Logging internal logs to d:\Study\20222\ML &DM\Project\20222_DMML_Project\wandb\run-20230614_163426-2oexogxa\logs\debug-internal.log
+2023-06-14 16:34:26,347 INFO    MainThread:5268 [wandb_init.py:init():516] calling init triggers
+2023-06-14 16:34:26,348 INFO    MainThread:5268 [wandb_init.py:init():519] wandb.init called with sweep_config: {}
+config: {}
+2023-06-14 16:34:26,348 INFO    MainThread:5268 [wandb_init.py:init():535] re-initializing run, found existing run on stack: 1nef2w0d
+2023-06-14 16:34:26,353 INFO    MainThread:5268 [wandb_run.py:_finish():1746] finishing run thanh-bv/News Classification/1nef2w0d
+2023-06-14 16:34:26,355 ERROR   MainThread:5268 [jupyter.py:save_history():440] Run pip install nbformat to save notebook history
+2023-06-14 16:34:26,356 INFO    MainThread:5268 [jupyter.py:save_ipynb():378] not saving jupyter notebook
+2023-06-14 16:34:26,356 INFO    MainThread:5268 [wandb_init.py:_jupyter_teardown():408] cleaning up jupyter logic
+2023-06-14 16:34:26,356 INFO    MainThread:5268 [wandb_run.py:_atexit_cleanup():1949] got exitcode: 0
+2023-06-14 16:34:26,357 INFO    MainThread:5268 [wandb_run.py:_restore():1932] restore
+2023-06-14 16:34:26,358 INFO    MainThread:5268 [wandb_run.py:_restore():1938] restore done
+2023-06-14 16:37:03,082 WARNING MsgRouterThr:5268 [router.py:message_loop():77] message_loop has been closed
+2023-06-14 16:37:03,984 INFO    MainThread:5268 [wandb_run.py:_restore():1932] restore
+2023-06-14 16:37:03,984 INFO    MainThread:5268 [wandb_run.py:_restore():1938] restore done
+2023-06-14 16:37:04,075 ERROR   MainThread:5268 [wandb_init.py:init():1105] error
+Traceback (most recent call last):
+  File "C:\Users\DELL\AppData\Roaming\Python\Python310\site-packages\wandb\sdk\wandb_run.py", line 1958, in _atexit_cleanup
+    self._on_finish()
+  File "C:\Users\DELL\AppData\Roaming\Python\Python310\site-packages\wandb\sdk\wandb_run.py", line 2266, in _on_finish
+    _ = exit_handle.wait(timeout=-1, on_progress=self._on_progress_exit)
+  File "C:\Users\DELL\AppData\Roaming\Python\Python310\site-packages\wandb\sdk\lib\mailbox.py", line 273, in wait
+    on_probe(probe_handle)
+  File "C:\Users\DELL\AppData\Roaming\Python\Python310\site-packages\wandb\sdk\wandb_run.py", line 2228, in _on_probe_exit
+    result = handle.wait(timeout=0)
+  File "C:\Users\DELL\AppData\Roaming\Python\Python310\site-packages\wandb\sdk\lib\mailbox.py", line 259, in wait
+    raise MailboxError("transport failed")
+wandb.errors.MailboxError: transport failed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\DELL\AppData\Roaming\Python\Python310\site-packages\wandb\sdk\wandb_init.py", line 1078, in init
+    run = wi.init()
+  File "C:\Users\DELL\AppData\Roaming\Python\Python310\site-packages\wandb\sdk\wandb_init.py", line 548, in init
+    self._wl._global_run_stack[-1].finish()
+  File "C:\Users\DELL\AppData\Roaming\Python\Python310\site-packages\wandb\sdk\wandb_run.py", line 292, in wrapper
+    return func(self, *args, **kwargs)
+  File "C:\Users\DELL\AppData\Roaming\Python\Python310\site-packages\wandb\sdk\wandb_run.py", line 255, in wrapper
+    return func(self, *args, **kwargs)
+  File "C:\Users\DELL\AppData\Roaming\Python\Python310\site-packages\wandb\sdk\wandb_run.py", line 1739, in finish
+    return self._finish(exit_code, quiet)
+  File "C:\Users\DELL\AppData\Roaming\Python\Python310\site-packages\wandb\sdk\wandb_run.py", line 1752, in _finish
+    self._atexit_cleanup(exit_code=exit_code)
+  File "C:\Users\DELL\AppData\Roaming\Python\Python310\site-packages\wandb\sdk\wandb_run.py", line 1969, in _atexit_cleanup
+    self._backend.cleanup()
+  File "C:\Users\DELL\AppData\Roaming\Python\Python310\site-packages\wandb\sdk\backend\backend.py", line 252, in cleanup
+    self.interface.join()
+  File "C:\Users\DELL\AppData\Roaming\Python\Python310\site-packages\wandb\sdk\interface\interface_shared.py", line 573, in join
+    super().join()
+  File "C:\Users\DELL\AppData\Roaming\Python\Python310\site-packages\wandb\sdk\interface\interface.py", line 712, in join
+    _ = self._communicate_shutdown()
+  File "C:\Users\DELL\AppData\Roaming\Python\Python310\site-packages\wandb\sdk\interface\interface_shared.py", line 516, in _communicate_shutdown
+    _ = self._communicate(record)
+  File "C:\Users\DELL\AppData\Roaming\Python\Python310\site-packages\wandb\sdk\interface\interface_shared.py", line 255, in _communicate
+    return self._communicate_async(rec, local=local).get(timeout=timeout)
+  File "C:\Users\DELL\AppData\Roaming\Python\Python310\site-packages\wandb\sdk\interface\interface_sock.py", line 58, in _communicate_async
+    future = self._router.send_and_receive(rec, local=local)
+  File "C:\Users\DELL\AppData\Roaming\Python\Python310\site-packages\wandb\sdk\interface\router.py", line 94, in send_and_receive
+    self._send_message(rec)
+  File "C:\Users\DELL\AppData\Roaming\Python\Python310\site-packages\wandb\sdk\interface\router_sock.py", line 36, in _send_message
+    self._sock_client.send_record_communicate(record)
+  File "C:\Users\DELL\AppData\Roaming\Python\Python310\site-packages\wandb\sdk\lib\sock_client.py", line 216, in send_record_communicate
+    self.send_server_request(server_req)
+  File "C:\Users\DELL\AppData\Roaming\Python\Python310\site-packages\wandb\sdk\lib\sock_client.py", line 155, in send_server_request
+    self._send_message(msg)
+  File "C:\Users\DELL\AppData\Roaming\Python\Python310\site-packages\wandb\sdk\lib\sock_client.py", line 152, in _send_message
+    self._sendall_with_error_handle(header + data)
+  File "C:\Users\DELL\AppData\Roaming\Python\Python310\site-packages\wandb\sdk\lib\sock_client.py", line 130, in _sendall_with_error_handle
+    sent = self._sock.send(data)
+ConnectionResetError: [WinError 10054] An existing connection was forcibly closed by the remote host

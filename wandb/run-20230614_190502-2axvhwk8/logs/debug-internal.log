@@ -1,0 +1,6 @@
+2023-06-14 19:05:10,329 INFO    StreamThr :17012 [internal.py:wandb_internal():88] W&B internal server running at pid: 17012, started at: 2023-06-14 19:05:10.328834
+2023-06-14 19:05:10,335 DEBUG   HandlerThread:17012 [handler.py:handle_request():139] handle_request: status
+2023-06-14 19:05:10,339 DEBUG   SenderThread:17012 [sender.py:send_request():317] send_request: status
+2023-06-14 19:05:10,344 INFO    WriterThread:17012 [datastore.py:open_for_write():75] open: d:\Study\20222\ML &DM\Project\20222_DMML_Project\wandb\run-20230614_190502-2axvhwk8\run-2axvhwk8.wandb
+2023-06-14 19:05:10,344 DEBUG   SenderThread:17012 [sender.py:send():303] send: header
+2023-06-14 19:05:10,347 DEBUG   SenderThread:17012 [sender.py:send():303] send: run

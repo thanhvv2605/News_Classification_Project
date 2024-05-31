@@ -1,0 +1,62 @@
+2023-06-14 16:20:44,481 INFO    MainThread:5268 [wandb_setup.py:_flush():68] Configure stats pid to 5268
+2023-06-14 16:20:44,482 INFO    MainThread:5268 [wandb_setup.py:_flush():68] Loading settings from C:\Users\DELL\.config\wandb\settings
+2023-06-14 16:20:44,482 INFO    MainThread:5268 [wandb_setup.py:_flush():68] Loading settings from d:\Study\20222\ML &DM\Project\20222_DMML_Project\wandb\settings
+2023-06-14 16:20:44,482 INFO    MainThread:5268 [wandb_setup.py:_flush():68] Loading settings from environment variables: {'_require_service': 'True'}
+2023-06-14 16:20:44,483 INFO    MainThread:5268 [wandb_setup.py:_flush():68] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2023-06-14 16:20:44,483 INFO    MainThread:5268 [wandb_setup.py:_flush():68] Applying login settings: {'api_key': '***REDACTED***'}
+2023-06-14 16:20:44,484 INFO    MainThread:5268 [wandb_init.py:_log_setup():476] Logging user logs to d:\Study\20222\ML &DM\Project\20222_DMML_Project\wandb\run-20230614_162044-qmda2571\logs\debug.log
+2023-06-14 16:20:44,485 INFO    MainThread:5268 [wandb_init.py:_log_setup():477] Logging internal logs to d:\Study\20222\ML &DM\Project\20222_DMML_Project\wandb\run-20230614_162044-qmda2571\logs\debug-internal.log
+2023-06-14 16:20:44,486 INFO    MainThread:5268 [wandb_init.py:_jupyter_setup():426] configuring jupyter hooks <wandb.sdk.wandb_init._WandbInit object at 0x000002BF78F60EE0>
+2023-06-14 16:20:44,487 INFO    MainThread:5268 [wandb_init.py:init():516] calling init triggers
+2023-06-14 16:20:44,488 INFO    MainThread:5268 [wandb_init.py:init():519] wandb.init called with sweep_config: {}
+config: {}
+2023-06-14 16:20:44,488 INFO    MainThread:5268 [wandb_init.py:init():535] re-initializing run, found existing run on stack: 1arf6goj
+2023-06-14 16:20:44,494 INFO    MainThread:5268 [wandb_run.py:_finish():1746] finishing run thanh-bv/News Classification/1arf6goj
+2023-06-14 16:20:44,494 INFO    MainThread:5268 [wandb_run.py:_atexit_cleanup():1949] got exitcode: 0
+2023-06-14 16:20:44,495 INFO    MainThread:5268 [wandb_run.py:_restore():1932] restore
+2023-06-14 16:20:44,495 INFO    MainThread:5268 [wandb_run.py:_restore():1938] restore done
+2023-06-14 16:20:52,267 INFO    MainThread:5268 [wandb_run.py:_footer_history_summary_info():3377] rendering history
+2023-06-14 16:20:52,268 INFO    MainThread:5268 [wandb_run.py:_footer_history_summary_info():3409] rendering summary
+2023-06-14 16:20:52,281 INFO    MainThread:5268 [wandb_run.py:_footer_sync_info():3333] logging synced files
+2023-06-14 16:20:52,289 INFO    MainThread:5268 [wandb_init.py:init():569] starting backend
+2023-06-14 16:20:52,289 INFO    MainThread:5268 [wandb_init.py:init():573] setting up manager
+2023-06-14 16:20:52,291 INFO    MainThread:5268 [backend.py:_multiprocessing_setup():102] multiprocessing start_methods=spawn, using: spawn
+2023-06-14 16:20:52,294 INFO    MainThread:5268 [wandb_init.py:init():580] backend started and connected
+2023-06-14 16:20:52,299 INFO    MainThread:5268 [wandb_run.py:_label_probe_notebook():1113] probe notebook
+2023-06-14 16:20:52,299 INFO    MainThread:5268 [wandb_run.py:_label_probe_notebook():1123] Unable to probe notebook: 'NoneType' object has no attribute 'get'
+2023-06-14 16:20:52,299 INFO    MainThread:5268 [wandb_init.py:init():658] updated telemetry
+2023-06-14 16:20:52,374 INFO    MainThread:5268 [wandb_init.py:init():693] communicating run to backend with 60 second timeout
+2023-06-14 16:20:54,620 INFO    MainThread:5268 [wandb_run.py:_on_init():2000] communicating current version
+2023-06-14 16:20:55,007 INFO    MainThread:5268 [wandb_run.py:_on_init():2004] got version response upgrade_message: "wandb version 0.15.4 is available!  To upgrade, please run:\n $ pip install wandb --upgrade"
+
+2023-06-14 16:20:55,007 INFO    MainThread:5268 [wandb_init.py:init():728] starting run threads in backend
+2023-06-14 16:20:55,178 INFO    MainThread:5268 [wandb_run.py:_console_start():1980] atexit reg
+2023-06-14 16:20:55,178 INFO    MainThread:5268 [wandb_run.py:_redirect():1838] redirect: SettingsConsole.WRAP_RAW
+2023-06-14 16:20:55,178 INFO    MainThread:5268 [wandb_run.py:_redirect():1903] Wrapping output streams.
+2023-06-14 16:20:55,178 INFO    MainThread:5268 [wandb_run.py:_redirect():1925] Redirects installed.
+2023-06-14 16:20:55,179 INFO    MainThread:5268 [wandb_init.py:init():765] run started, returning control to user process
+2023-06-14 16:20:55,702 INFO    MainThread:5268 [wandb_init.py:_pause_backend():389] pausing backend
+2023-06-14 16:20:55,702 INFO    MainThread:5268 [jupyter.py:save_ipynb():378] not saving jupyter notebook
+2023-06-14 16:21:23,511 INFO    MainThread:5268 [wandb_init.py:_resume_backend():398] resuming backend
+2023-06-14 16:21:57,239 INFO    MainThread:5268 [wandb_setup.py:_flush():68] Configure stats pid to 5268
+2023-06-14 16:21:57,240 INFO    MainThread:5268 [wandb_setup.py:_flush():68] Loading settings from C:\Users\DELL\.config\wandb\settings
+2023-06-14 16:21:57,240 INFO    MainThread:5268 [wandb_setup.py:_flush():68] Loading settings from d:\Study\20222\ML &DM\Project\20222_DMML_Project\wandb\settings
+2023-06-14 16:21:57,240 INFO    MainThread:5268 [wandb_setup.py:_flush():68] Loading settings from environment variables: {'_require_service': 'True'}
+2023-06-14 16:21:57,240 INFO    MainThread:5268 [wandb_setup.py:_flush():68] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2023-06-14 16:21:57,240 INFO    MainThread:5268 [wandb_setup.py:_flush():68] Applying login settings: {'api_key': '***REDACTED***'}
+2023-06-14 16:21:57,241 INFO    MainThread:5268 [wandb_init.py:_log_setup():476] Logging user logs to d:\Study\20222\ML &DM\Project\20222_DMML_Project\wandb\run-20230614_162157-2agdzjg1\logs\debug.log
+2023-06-14 16:21:57,242 INFO    MainThread:5268 [wandb_init.py:_log_setup():477] Logging internal logs to d:\Study\20222\ML &DM\Project\20222_DMML_Project\wandb\run-20230614_162157-2agdzjg1\logs\debug-internal.log
+2023-06-14 16:21:57,242 INFO    MainThread:5268 [wandb_init.py:init():516] calling init triggers
+2023-06-14 16:21:57,242 INFO    MainThread:5268 [wandb_init.py:init():519] wandb.init called with sweep_config: {}
+config: {}
+2023-06-14 16:21:57,242 INFO    MainThread:5268 [wandb_init.py:init():535] re-initializing run, found existing run on stack: qmda2571
+2023-06-14 16:21:57,246 INFO    MainThread:5268 [wandb_run.py:_finish():1746] finishing run thanh-bv/News Classification/qmda2571
+2023-06-14 16:21:57,248 ERROR   MainThread:5268 [jupyter.py:save_history():440] Run pip install nbformat to save notebook history
+2023-06-14 16:21:57,248 INFO    MainThread:5268 [jupyter.py:save_ipynb():378] not saving jupyter notebook
+2023-06-14 16:21:57,248 INFO    MainThread:5268 [wandb_init.py:_jupyter_teardown():408] cleaning up jupyter logic
+2023-06-14 16:21:57,248 INFO    MainThread:5268 [wandb_run.py:_atexit_cleanup():1949] got exitcode: 0
+2023-06-14 16:21:57,248 INFO    MainThread:5268 [wandb_run.py:_restore():1932] restore
+2023-06-14 16:21:57,249 INFO    MainThread:5268 [wandb_run.py:_restore():1938] restore done
+2023-06-14 16:22:06,589 INFO    MainThread:5268 [wandb_run.py:_footer_history_summary_info():3377] rendering history
+2023-06-14 16:22:06,590 INFO    MainThread:5268 [wandb_run.py:_footer_history_summary_info():3409] rendering summary
+2023-06-14 16:22:06,596 INFO    MainThread:5268 [wandb_run.py:_footer_sync_info():3333] logging synced files

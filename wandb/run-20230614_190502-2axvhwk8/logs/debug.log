@@ -1,0 +1,27 @@
+2023-06-14 19:05:02,725 INFO    MainThread:18408 [wandb_setup.py:_flush():68] Configure stats pid to 18408
+2023-06-14 19:05:02,725 INFO    MainThread:18408 [wandb_setup.py:_flush():68] Loading settings from C:\Users\DELL\.config\wandb\settings
+2023-06-14 19:05:02,725 INFO    MainThread:18408 [wandb_setup.py:_flush():68] Loading settings from d:\Study\20222\ML &DM\Project\20222_DMML_Project\wandb\settings
+2023-06-14 19:05:02,725 INFO    MainThread:18408 [wandb_setup.py:_flush():68] Loading settings from environment variables: {'_require_service': 'True'}
+2023-06-14 19:05:02,726 INFO    MainThread:18408 [wandb_setup.py:_flush():68] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2023-06-14 19:05:02,726 INFO    MainThread:18408 [wandb_init.py:_log_setup():476] Logging user logs to d:\Study\20222\ML &DM\Project\20222_DMML_Project\wandb\run-20230614_190502-2axvhwk8\logs\debug.log
+2023-06-14 19:05:02,727 INFO    MainThread:18408 [wandb_init.py:_log_setup():477] Logging internal logs to d:\Study\20222\ML &DM\Project\20222_DMML_Project\wandb\run-20230614_190502-2axvhwk8\logs\debug-internal.log
+2023-06-14 19:05:02,727 INFO    MainThread:18408 [wandb_init.py:_jupyter_setup():426] configuring jupyter hooks <wandb.sdk.wandb_init._WandbInit object at 0x0000026EA58AD3F0>
+2023-06-14 19:05:02,728 INFO    MainThread:18408 [wandb_init.py:init():516] calling init triggers
+2023-06-14 19:05:02,728 INFO    MainThread:18408 [wandb_init.py:init():519] wandb.init called with sweep_config: {}
+config: {}
+2023-06-14 19:05:02,728 INFO    MainThread:18408 [wandb_init.py:init():535] re-initializing run, found existing run on stack: 1x93celc
+2023-06-14 19:05:02,731 INFO    MainThread:18408 [wandb_run.py:_finish():1746] finishing run thanh-bv/News Classification/1x93celc
+2023-06-14 19:05:02,731 INFO    MainThread:18408 [wandb_run.py:_atexit_cleanup():1949] got exitcode: 0
+2023-06-14 19:05:02,732 INFO    MainThread:18408 [wandb_run.py:_restore():1932] restore
+2023-06-14 19:05:02,732 INFO    MainThread:18408 [wandb_run.py:_restore():1938] restore done
+2023-06-14 19:05:09,141 INFO    MainThread:18408 [wandb_run.py:_footer_history_summary_info():3377] rendering history
+2023-06-14 19:05:09,142 INFO    MainThread:18408 [wandb_run.py:_footer_history_summary_info():3409] rendering summary
+2023-06-14 19:05:09,156 INFO    MainThread:18408 [wandb_run.py:_footer_sync_info():3333] logging synced files
+2023-06-14 19:05:09,169 INFO    MainThread:18408 [wandb_init.py:init():569] starting backend
+2023-06-14 19:05:09,170 INFO    MainThread:18408 [wandb_init.py:init():573] setting up manager
+2023-06-14 19:05:09,174 INFO    MainThread:18408 [backend.py:_multiprocessing_setup():102] multiprocessing start_methods=spawn, using: spawn
+2023-06-14 19:05:09,179 INFO    MainThread:18408 [wandb_init.py:init():580] backend started and connected
+2023-06-14 19:05:09,185 INFO    MainThread:18408 [wandb_run.py:_label_probe_notebook():1113] probe notebook
+2023-06-14 19:05:09,185 INFO    MainThread:18408 [wandb_run.py:_label_probe_notebook():1123] Unable to probe notebook: 'NoneType' object has no attribute 'get'
+2023-06-14 19:05:09,186 INFO    MainThread:18408 [wandb_init.py:init():658] updated telemetry
+2023-06-14 19:05:09,337 INFO    MainThread:18408 [wandb_init.py:init():693] communicating run to backend with 60 second timeout

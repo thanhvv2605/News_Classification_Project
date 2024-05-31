@@ -1,0 +1,130 @@
+403/403 [==============================] - 1s 3ms/step
+For each class:
+Accuracy:  tensor([0.0029, 0.0918, 0.1499, 0.2176, 0.0035, 0.2968, 0.2123, 0.4870, 0.0000,
+        0.4907, 0.0251, 0.0118, 0.4595, 0.0324, 0.0404, 0.2043, 0.3902, 0.0968,
+        0.0000, 0.1067, 0.0517, 0.3829, 0.1804, 0.6698, 0.4719, 0.0903, 0.0380,
+        0.2442, 0.1609, 0.6007, 0.0830, 0.0449, 0.3889, 0.0136, 0.5935, 0.1036,
+        0.5190, 0.1081, 0.1749, 0.3344])
+Precision:  tensor([0.0556, 0.1007, 0.1921, 0.1674, 0.0455, 0.2752, 0.1834, 0.6246, 0.0000,
+        0.4688, 0.0441, 0.0408, 0.4651, 0.0655, 0.0514, 0.1854, 0.3929, 0.0733,
+        0.0000, 0.1487, 0.0846, 0.3395, 0.1621, 0.6469, 0.4866, 0.1000, 0.0343,
+        0.2667, 0.1587, 0.6270, 0.1280, 0.0842, 0.3492, 0.0439, 0.5867, 0.0609,
+        0.4670, 0.0685, 0.2168, 0.3121])
+Recall:  tensor([0.0029, 0.0918, 0.1499, 0.2176, 0.0035, 0.2968, 0.2123, 0.4870, 0.0000,
+        0.4907, 0.0251, 0.0118, 0.4595, 0.0324, 0.0404, 0.2043, 0.3902, 0.0968,
+        0.0000, 0.1067, 0.0517, 0.3829, 0.1804, 0.6698, 0.4719, 0.0903, 0.0380,
+        0.2442, 0.1609, 0.6007, 0.0830, 0.0449, 0.3889, 0.0136, 0.5935, 0.1036,
+        0.5190, 0.1081, 0.1749, 0.3344])
+F1-score:  tensor([0.0054, 0.0961, 0.1684, 0.1892, 0.0066, 0.2856, 0.1968, 0.5473, 0.0000,
+        0.4795, 0.0320, 0.0183, 0.4623, 0.0434, 0.0452, 0.1944, 0.3915, 0.0834,
+        0.0000, 0.1242, 0.0642, 0.3599, 0.1708, 0.6582, 0.4792, 0.0949, 0.0360,
+        0.2550, 0.1598, 0.6136, 0.1007, 0.0586, 0.3680, 0.0208, 0.5901, 0.0767,
+        0.4916, 0.0839, 0.1936, 0.3229])
+Type:  micro
+Accuracy:  tensor(0.3804)
+Precision:  tensor(0.3804)
+Recall:  tensor(0.3804)
+F1-score:  tensor(0.3804)
+Type:  macro
+Accuracy:  tensor(0.2144)
+Precision:  tensor(0.2201)
+Recall:  tensor(0.2144)
+F1-score:  tensor(0.2142)
+Type:  weighted
+Accuracy:  tensor(0.3804)
+Precision:  tensor(0.3707)
+Recall:  tensor(0.3804)
+F1-score:  tensor(0.3741)
+Epoch 1/15
+
+
+
+967/967 [==============================] - 10s 10ms/step - loss: 2.9674 - categorical_accuracy: 0.3026 - val_loss: 2.5723 - val_categorical_accuracy: 0.3544
+Epoch 2/15
+
+
+
+
+967/967 [==============================] - 9s 9ms/step - loss: 2.5173 - categorical_accuracy: 0.3622 - val_loss: 2.4850 - val_categorical_accuracy: 0.3678
+Epoch 3/15
+
+
+
+
+967/967 [==============================] - 10s 11ms/step - loss: 2.3844 - categorical_accuracy: 0.3935 - val_loss: 2.3389 - val_categorical_accuracy: 0.4154
+Epoch 4/15
+
+
+
+
+967/967 [==============================] - 10s 11ms/step - loss: 2.2504 - categorical_accuracy: 0.4368 - val_loss: 2.2749 - val_categorical_accuracy: 0.4357
+Epoch 5/15
+
+
+
+
+967/967 [==============================] - 10s 10ms/step - loss: 2.1665 - categorical_accuracy: 0.4621 - val_loss: 2.2563 - val_categorical_accuracy: 0.4527
+Epoch 6/15
+
+
+
+
+967/967 [==============================] - 11s 11ms/step - loss: 2.0812 - categorical_accuracy: 0.4889 - val_loss: 2.2565 - val_categorical_accuracy: 0.4647
+Epoch 7/15
+
+
+
+
+
+967/967 [==============================] - 11s 11ms/step - loss: 1.9754 - categorical_accuracy: 0.5183 - val_loss: 2.2734 - val_categorical_accuracy: 0.4696
+Epoch 8/15
+
+
+
+
+967/967 [==============================] - 10s 10ms/step - loss: 1.8617 - categorical_accuracy: 0.5481 - val_loss: 2.3278 - val_categorical_accuracy: 0.4747
+Epoch 9/15
+
+
+
+
+967/967 [==============================] - 11s 11ms/step - loss: 1.7588 - categorical_accuracy: 0.5751 - val_loss: 2.3869 - val_categorical_accuracy: 0.4696
+Epoch 10/15
+
+
+
+
+967/967 [==============================] - 10s 10ms/step - loss: 1.6639 - categorical_accuracy: 0.6018 - val_loss: 2.4898 - val_categorical_accuracy: 0.4633
+Epoch 11/15
+
+
+
+
+967/967 [==============================] - 11s 11ms/step - loss: 1.5772 - categorical_accuracy: 0.6223 - val_loss: 2.6019 - val_categorical_accuracy: 0.4614
+Epoch 12/15
+
+
+
+
+
+967/967 [==============================] - 13s 13ms/step - loss: 1.5009 - categorical_accuracy: 0.6434 - val_loss: 2.7404 - val_categorical_accuracy: 0.4496
+Epoch 13/15
+
+
+
+
+
+
+967/967 [==============================] - 13s 13ms/step - loss: 1.4364 - categorical_accuracy: 0.6621 - val_loss: 2.8705 - val_categorical_accuracy: 0.4477
+Epoch 14/15
+
+
+
+
+967/967 [==============================] - 10s 10ms/step - loss: 1.3768 - categorical_accuracy: 0.6808 - val_loss: 2.9809 - val_categorical_accuracy: 0.4401
+Epoch 15/15
+
+
+
+
+967/967 [==============================] - 8s 9ms/step - loss: 1.3240 - categorical_accuracy: 0.6955 - val_loss: 3.1254 - val_categorical_accuracy: 0.4349
