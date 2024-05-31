@@ -1,7 +1,3 @@
-# News Classification Using Naive Bayes, SVM and Deep Neural Network
-
-## Authors
-
 
 ## Description
 This repository contains the code for the project News Classification.
